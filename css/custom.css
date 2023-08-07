@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-Regular.ttf") format("truetype");
+}
+
+.forty-logo div {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 17px !important;
+  color: #fff !important;
+  font-size: 30px;
+}
+
+.forty-logo-color {
+  color: #2ecc71;
+}
+
+.counter {
+  color: #2ecc71;
+}
+
+.ss-style-halfcircle::after {
+  display: none !important;
+}
+
+.slider-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.1rem;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.slider-subtitle {
+  font-family: "Montserrat", sans-serif;
+  display: block;
+
+  font-size: 2.3rem;
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.76);
+  padding-right: 20px;
+}
