@@ -1,3 +1,13 @@
+window.addEventListener("scroll", function () {
+  const header = document.getElementById("top");
+
+  if (window.scrollY < 600) {
+    header.classList.add("header-hidden");
+  } else {
+    header.classList.remove("header-hidden");
+  }
+});
+
 /*****************************************************************************
 	CONTACT FORM - you can change your notification message here
 *****************************************************************************/
@@ -83,6 +93,7 @@ jQuery("#counter-1").appear(function () {
     from: 0,
     to: 1440,
     speed: 4000,
+    suffix: "hrs",
     refreshInterval: 50,
     onComplete: function (value) {
       //console.debug(this);
@@ -93,6 +104,7 @@ jQuery("#counter-2").appear(function () {
   $("#counter-2").countTo({
     from: 0,
     to: 90,
+    suffix: "%",
     speed: 4000,
     refreshInterval: 50,
     onComplete: function (value) {
@@ -100,11 +112,13 @@ jQuery("#counter-2").appear(function () {
     },
   });
 });
+
 jQuery("#counter-3").appear(function () {
   $("#counter-3").countTo({
     from: 0,
-    to: 2001,
+    to: 10,
     speed: 4000,
+    suffix: "%",
     refreshInterval: 50,
     onComplete: function (value) {
       //console.debug(this);

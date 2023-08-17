@@ -231,14 +231,15 @@ h6.project_title {
 /*-----------------------------------------------------------------------------------*/
 /*	02: SECTIONS
 /*-----------------------------------------------------------------------------------*/	
-#Section-1 { background:#313941; padding:90px 0 140px; }
-#Section-2 { background:#384049; padding-top:90px; margin-top:-90px; }
-#Section-3 { background:#313941; padding:90px 0 0; margin-top:-90px; }  	
-#Section-4 { background:#384049; padding:90px 0 0; } 
-#Section-5 { background:#384049; padding-top:90px; } 
-#Section-6 { background:#313941; padding:90px 0 170px; margin-top:-90px; } 
-#Section-7 { background:#2a2f36; padding:20px 0 20px; } 
-#Section-8 { background:#2a2f36; padding:50px 0 20px; } 
+#about { background:#313941; padding:100px 0 140px; }
+#services{ background:#384049; padding:100px 0 140px; }
+#contact{ background:#313941; padding:100px 0 140px; }
+#details{ background:#2a2f36; padding:100px 0 140px; }
+#counters{ background:#384049; padding:100px 0 140px; }
+
+#Section-6 { background:#313941; padding:90px 0 170px; margin-top:-90px; }
+#Section-7 { background:#2a2f36; padding:20px 0 20px; }
+#Section-8 { background:#2a2f36; padding:50px 0 20px; }
 
 /**** PARALLAX SECTIONS ****/
 .parallax-section {
@@ -376,18 +377,18 @@ h6.project_title {
 /*-----------------------------------------------------------------------------------*/
 /*	04: SLIDER REVOLUTION
 /*-----------------------------------------------------------------------------------*/	
-#revolution_slider { padding:85px 0 0; }
+#revolution_slider { padding:0 0 0; }
 .fullwidthbanner-container {
 	width: 100%!important;
-	max-height:610px!important;
+	height:100vh !important;
 	position: relative;
 	padding: 0;
 	overflow:hidden!important;
 	margin:0 0;
 }
-.fullscreenvideo iframe { max-height:610px!important; }
+.fullscreenvideo iframe { height:100vh!important; }
 
-.fullwidthbanner a {  color:#fff!important; }
+.fullwidthbanner a {  color:#fff!important; display: none !important; }
 .fullwidthbanner ul { visibility:hidden; margin:0; list-style:none; }
 .rev-text { color: #fff; margin:40px; }
 .rev-title { margin: 0; color:#E9E6E1!important; }

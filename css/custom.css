@@ -38,3 +38,17 @@
   color: rgba(255, 255, 255, 0.76);
   padding-right: 20px;
 }
+
+.counters-header {
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.header-hidden {
+  display: none;
+}
+
+.tp-bannertimer.tp-bottom {
+  display: none !important;
+}
