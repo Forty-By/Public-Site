@@ -53,6 +53,7 @@
   display: none !important;
 }
 
-.service-header {
+.service-header-icon i {
   color: #2ecc71 !important;
+  font-size: 1.7rem;
 }

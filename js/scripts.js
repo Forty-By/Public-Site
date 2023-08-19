@@ -191,13 +191,13 @@ $(document).ready(function () {
   jQuery("#top").localScroll(6000);
 
   //parallax
-  jQuery(".well").parallax("50%", 0.1);
+  jQuery(".counters-header").parallax("50%", 0.1);
   jQuery("#big_button").parallax("50%", 0.1);
   jQuery("#Section-5 .well").parallax("50%", 0.1);
 
   //scrollbar
   jQuery("body").niceScroll({
-    cursorcolor: "#777",
+    cursorcolor: "#2ecc71",
     cursorborder: "0px",
     cursorwidth: "8px",
     zindex: "9999",
