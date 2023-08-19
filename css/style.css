@@ -388,8 +388,8 @@ h6.project_title {
 }
 .fullscreenvideo iframe { height:100vh!important; }
 
-.fullwidthbanner a {  color:#fff!important; display: none !important; }
-.fullwidthbanner ul { visibility:hidden; margin:0; list-style:none; }
+.fullwidthbanner a {  color:#fff!important;  }
+.fullwidthbanner ul {  margin:0; list-style:none; }
 .rev-text { color: #fff; margin:40px; }
 .rev-title { margin: 0; color:#E9E6E1!important; }
 .rev-left { margin-left:20px; }
