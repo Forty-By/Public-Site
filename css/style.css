@@ -1335,8 +1335,8 @@ and (max-width: 1030px){
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px){
-.rev-title { font-size:16px; line-height:22px; } 
-.rev-title.big { font-size:24px; line-height:28px;}
+.rev-title { font-size:16px; line-height:22px; }
+.rev-title.big { font-size:304px; line-height:28px;}
 .grid li { width:47%; margin-left:0; }
 .grida li { width:47%; margin-left:0; }
 .rev-title.bold { font-size:40px!important; letter-spacing:4px; margin-top:0; }
@@ -1355,7 +1355,7 @@ and (max-width: 1030px){
 @media screen and (max-width: 479px){
 #revolution_slider{ padding:0 0; }
 .rev-title { font-size:10px; line-height:14px; }
-.rev-title.big { font-size:16px; line-height:20px; }
+.rev-title.big { font-size:30px; line-height:20px; }
 #revolution_slider h2 { font-size:20px; margin:0 0;  }
 .mobile-top { padding-top:0;}
 }
@@ -1368,7 +1368,7 @@ and (max-width: 1030px){
 .grida li { width:80%; min-width:280px; margin-left:-3px; }
 #revolution_slider{ padding:0 0; }
 #revolution_slider h2{ font-size:20px; margin:0 0; }
-.rev-title.bold { font-size:20px!important; letter-spacing:4px; margin-top:0; }
+.rev-title.bold { font-size:30px!important; letter-spacing:4px; margin-top:0; }
 .rev-title { font-size:12px; }
 .rev-title-sub2 { margin-top:10px!important;}
 .btn-mobile { padding:5px 12px; font-size:12px;}
