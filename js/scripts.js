@@ -1,10 +1,10 @@
-window.addEventListener("scroll", function () {
-  const header = document.getElementById("top");
+$(window).on("scroll", function () {
+  const header = $("#top");
 
-  if (window.scrollY < 600) {
-    header.classList.add("header-hidden");
+  if ($(this).scrollTop() < 600) {
+    header.addClass("header-hidden");
   } else {
-    header.classList.remove("header-hidden");
+    header.removeClass("header-hidden");
   }
 });
 
