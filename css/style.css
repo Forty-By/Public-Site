@@ -381,6 +381,7 @@ h6.project_title {
 .fullwidthbanner-container {
 	width: 100%!important;
 	height:100vh !important;
+	max-height: 800px!important;
 	position: relative;
 	padding: 0;
 	overflow:hidden!important;
